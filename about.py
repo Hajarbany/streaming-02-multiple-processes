@@ -120,8 +120,8 @@ def get_header(fn):
 {DIVIDER}
 {DIVIDER}
  Welcome to the Python Debugging Information Utility ABOUT.PY
- Date and Time: {datetime.date.today()} at {datetime.datetime.now().strftime("%I:%M %p")}
- Operating System: {os.name} {platform.system()} {platform.release()}
+ Date and Time: 08/28/2023 at 4:30pm 
+ Operating System: macOS Ventura version 13.4.1 (C) 
  System Architecture: {architecture}
  Number of CPUs: {os.cpu_count()}
  Machine Type: {platform.machine()}
