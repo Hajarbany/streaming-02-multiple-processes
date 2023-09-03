@@ -1,0 +1,118 @@
+In the console, type clear and hit Enter or Return. 
+
+This will clear the console output. 
+
+Run the file once while the tasks are short. 
+
+Copy and paste the terminal results here.
+
+(base) hajarsyria@HajarMacBookPro streaming-02-multiple-processes % /usr/local/bin/python3 "/Users/hajarsyria/Streaming Git/Streaming 02/streaming-02-multiple-processes/process_streaming_Hajar.py
+"
+2023-09-03 01:10:31,321 - INFO - ===============================================
+2023-09-03 01:10:31,321 - INFO - Starting fake streaming process.
+2023-09-03 01:10:31,321 - INFO - Starting to stream data from imdb_movies.csv to ('localhost', 9999).
+2023-09-03 01:10:31,321 - INFO - Opened for reading: imdb_movies.csv.
+2023-09-03 01:10:31,321 - INFO - Skipped header row: ['Title', 'Rating']
+2023-09-03 01:10:31,323 - INFO - Sent: b'[The Godfather, 9.2]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:10:34,326 - INFO - Sent: b'[The Shawshank Redemption, 9.3]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:10:37,329 - INFO - Sent: b'[Shichinin no samurai, 8.6]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:10:40,332 - INFO - Sent: b'[Cidade de Deus, 8.6]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:10:43,336 - INFO - Sent: b'[The Godfather Part II, 9]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:10:46,341 - INFO - Sent: b'[Pulp Fiction, 8.9]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:10:49,346 - INFO - Sent: b'[12 Angry Men, 9]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:10:52,349 - INFO - Sent: b"[One Flew Over the Cuckoo's Nest, 8.7]" on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:10:55,353 - INFO - Sent: b'[The Lord of the Rings: The Return of the King, 9]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:10:58,359 - INFO - Sent: b"[Schindler's List, 9]" on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:11:01,360 - INFO - Sent: b'[Fight Club, 8.8]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:11:04,363 - INFO - Sent: b'[The Usual Suspects, 8.5]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:11:07,370 - INFO - Sent: b'[Goodfellas, 8.7]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:11:10,376 - INFO - Sent: b'[Once Upon a Time in the West, 8.5]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:11:13,377 - INFO - Sent: b'[Sunset Blvd., 8.4]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:11:16,383 - INFO - Sent: b'[Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb, 8.4]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:11:19,387 - INFO - Sent: b'[M - Eine Stadt sucht einen M\xc3\xb6rder, 8.3]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:11:22,393 - INFO - Sent: b'[Il buono, il brutto, il cattivo, 8.8]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:11:25,398 - INFO - Sent: b"[Le fabuleux destin d'Am\xc3\xa9lie Poulain, 8.3]" on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:11:28,403 - INFO - Sent: b'[Memento, 8.4]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:11:31,408 - INFO - Sent: b'[Rear Window, 8.5]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:11:34,409 - INFO - Sent: b'[A Clockwork Orange, 8.3]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:11:37,415 - INFO - Sent: b'[Citizen Kane, 8.3]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:11:40,421 - INFO - Sent: b'[L\xc3\xa9on, 8.5]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:11:43,424 - INFO - Sent: b'[City Lights, 8.5]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:11:46,425 - INFO - Sent: b'[Oldeuboi, 8.4]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:11:49,431 - INFO - Sent: b'[The Matrix, 8.7]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:11:52,436 - INFO - Sent: b'[The Third Man, 8.1]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:11:55,441 - INFO - Sent: b'[Nuovo Cinema Paradiso, 8.5]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:11:58,447 - INFO - Sent: b'[Taxi Driver, 8.2]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:12:01,452 - INFO - Sent: b'[The Dark Knight, 9]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:12:04,455 - INFO - Sent: b'[Apocalypse Now, 8.4]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:12:07,458 - INFO - Sent: b'[North by Northwest, 8.3]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:12:10,463 - INFO - Sent: b'[Sen to Chihiro no kamikakushi, 8.6]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:12:13,466 - INFO - Sent: b'[Paths of Glory, 8.4]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:12:16,472 - INFO - Sent: b'[American History X, 8.5]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:12:19,474 - INFO - Sent: b'[The Great Dictator, 8.4]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:12:22,475 - INFO - Sent: b'[Y\xc3\xb4jinb\xc3\xb4, 8.2]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:12:25,479 - INFO - Sent: b'[The Avengers, 8]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:12:28,485 - INFO - Sent: b'[Requiem for a Dream, 8.3]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:12:31,489 - INFO - Sent: b'[Det sjunde inseglet, 8.1]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:12:34,491 - INFO - Sent: b'[Modern Times, 8.5]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:12:37,497 - INFO - Sent: b'[Se7en, 8.6]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:12:40,503 - INFO - Sent: b'[Chinatown, 8.2]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:12:43,505 - INFO - Sent: b'[Ikiru, 8.3]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:12:46,506 - INFO - Sent: b'[Ladri di biciclette, 8.3]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:12:49,509 - INFO - Sent: b'[Eternal Sunshine of the Spotless Mind, 8.3]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:12:52,512 - INFO - Sent: b'[Vertigo, 8.3]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:12:55,515 - INFO - Sent: b'[Lawrence of Arabia, 8.3]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:12:58,518 - INFO - Sent: b'[Das Boot, 8.4]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:13:01,523 - INFO - Sent: b'[La vita \xc3\xa8 bella, 8.6]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:13:04,529 - INFO - Sent: b'[Hotaru no haka, 8.5]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:13:07,534 - INFO - Sent: b'[Psycho, 8.5]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:13:10,539 - INFO - Sent: b'[Smultronst\xc3\xa4llet, 8.1]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:13:13,544 - INFO - Sent: b'[Raging Bull, 8.1]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:13:16,545 - INFO - Sent: b'[Reservoir Dogs, 8.3]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:13:19,547 - INFO - Sent: b'[Ran, 8.2]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:13:22,550 - INFO - Sent: b'[Star Wars, 8.6]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:13:25,552 - INFO - Sent: b'[The Lord of the Rings: The Fellowship of the Ring, 8.8]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:13:28,553 - INFO - Sent: b'[Metropolis, 8.3]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:13:31,559 - INFO - Sent: b'[Star Wars: Episode V - The Empire Strikes Back, 8.7]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:13:34,564 - INFO - Sent: b'[Monty Python and the Holy Grail, 8.2]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:13:37,569 - INFO - Sent: b'[Amores perros, 8.1]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:13:40,574 - INFO - Sent: b'[The Pianist, 8.5]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:13:43,576 - INFO - Sent: b'[Donnie Darko, 8]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:13:46,577 - INFO - Sent: b'[Once Upon a Time in America, 8.3]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:13:49,579 - INFO - Sent: b'[American Beauty, 8.3]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:13:52,582 - INFO - Sent: b'[Der Untergang, 8.2]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:13:55,582 - INFO - Sent: b'[Django Unchained, 8.5]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:13:58,586 - INFO - Sent: b'[L.A. Confidential, 8.2]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:14:01,590 - INFO - Sent: b'[Blade Runner, 8.1]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:14:04,591 - INFO - Sent: b'[Mononoke-hime, 8.3]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:14:07,592 - INFO - Sent: b'[The Shining, 8.4]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:14:10,598 - INFO - Sent: b'[Inception, 8.8]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:14:13,604 - INFO - Sent: b'[Rash\xc3\xb4mon, 8.2]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:14:16,609 - INFO - Sent: b'[Tonari no Totoro, 8.1]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:14:19,615 - INFO - Sent: b'[Trainspotting, 8.1]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:14:22,620 - INFO - Sent: b'[The Treasure of the Sierra Madre, 8.2]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:14:25,626 - INFO - Sent: b'[Redirected, 6.4]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:14:28,627 - INFO - Sent: b'[Casablanca, 8.5]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:14:31,633 - INFO - Sent: b'[All About Eve, 8.2]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:14:34,636 - INFO - Sent: b'[The Lord of the Rings: The Two Towers, 8.8]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:14:37,637 - INFO - Sent: b'[Seppuku, 8.6]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:14:40,643 - INFO - Sent: b'[The Big Lebowski, 8.1]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:14:43,649 - INFO - Sent: b'[The Apartment, 8.3]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:14:46,652 - INFO - Sent: b'[Jodaeiye Nader az Simin, 8.3]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:14:49,656 - INFO - Sent: b'[Touch of Evil, 8]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:14:52,660 - INFO - Sent: b'[Der Himmel \xc3\xbcber Berlin, 8]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:14:55,666 - INFO - Sent: b'[The Silence of the Lambs, 8.6]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:14:58,671 - INFO - Sent: b'[Some Like It Hot, 8.2]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:15:01,677 - INFO - Sent: b'[On the Waterfront, 8.1]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:15:04,683 - INFO - Sent: b'[8\xc2\xbd, 8]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:15:07,687 - INFO - Sent: b'[Festen, 8.1]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:15:10,693 - INFO - Sent: b'[Amadeus, 8.4]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:15:13,694 - INFO - Sent: b'[Sin City, 8]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:15:16,697 - INFO - Sent: b'[Full Metal Jacket, 8.3]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:15:19,703 - INFO - Sent: b'[Idi i smotri, 8.4]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:15:22,705 - INFO - Sent: b'[Snatch, 8.2]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:15:25,711 - INFO - Sent: b'[Fanny och Alexander, 8.1]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:15:28,717 - INFO - Sent: b'[Raiders of the Lost Ark, 8.4]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 01:15:31,722 - INFO - Streaming complete!
+2023-09-03 01:15:31,722 - INFO - ===============================================
+(base) hajarsyria@HajarMacBookPro streaming-02-multiple-processes % 

@@ -1,0 +1,25 @@
+
+======================================================================
+======================================================================
+ Welcome to NW Diagnostics!
+ At: 2023-09-03 at 12:20 AM
+ Operating System: posix Darwin 22.5.0
+ System Architecture: 64bit
+ Number of CPUs: 12
+ Machine Type: x86_64
+ Python Version: 3.11.2
+ Python Build Date and Compiler: v3.11.2:878ead1ac1 with Feb  7 2023 10:02:41
+ Python Implementation: CPython
+ Active pip environment: None
+ Path to Interpreter:         /usr/local/bin/python3
+ Path to virtual environment: /Library/Frameworks/Python.framework/Versions/3.11
+ Current Working Directory:   /Users/hajarsyria/Streaming Git/Streaming 02/streaming-02-multiple-processes
+ Path to source directory:    /Users/hajarsyria/Streaming Git/Streaming 02/streaming-02-multiple-processes
+ Path to script file:         /Users/hajarsyria/Streaming Git/Streaming 02/streaming-02-multiple-processes/00_check_core.py
+ User's Home Directory:       /Users/hajarsyria
+ Terminal Environment:        VS Code
+ Terminal Type:               zsh
+ Git available in PATH:       True 
+======================================================================
+======================================================================
+

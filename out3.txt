@@ -5,3 +5,42 @@ This will clear the console output.
 Run the file once while the tasks are longer. 
 
 Copy and paste the terminal results (when task_duration is 3) here.
+(base) hajarsyria@HajarMacBookPro streaming-02-multiple-processes % /usr/local/bin/python3 "/Users/hajarsyria/Str
+eaming Git/Streaming 02/streaming-02-multiple-processes/multiple_processes.py"
+2023-09-03 00:23:21,727 - INFO - 
+======================================================================
+STARTING UP.............................
+  Date and Time:    2023-09-03 at 12:23 AM
+  Operating System: posix Darwin 22.5.0
+  Python Version:   3.11.2
+  Path to Interpreter:  /usr/local/bin/python3
+======================================================================
+
+2023-09-03 00:23:21,727 - INFO - Called recreate_database().
+2023-09-03 00:23:21,727 - INFO - Called drop_table().
+2023-09-03 00:23:21,729 - INFO - Table 'pets' dropped successfully.
+2023-09-03 00:23:21,729 - INFO - Called create_table().
+2023-09-03 00:23:21,730 - INFO - Table 'pets' created successfully.
+2023-09-03 00:23:21,812 - INFO - Called process_one().
+2023-09-03 00:23:21,812 - INFO -   Called insert_pet() with process=P1, name=Ace, breed=Dog.
+2023-09-03 00:23:21,813 - INFO - Called process_two().
+2023-09-03 00:23:21,813 - INFO -   Called insert_pet() with process=P2, name=Cooper, breed=Rabbit.
+2023-09-03 00:23:21,815 - INFO - Called process_three().
+2023-09-03 00:23:21,815 - INFO -   Called insert_pet() with process=P3, name=Emma, breed=Rabbit.
+2023-09-03 00:23:24,818 - INFO -   Called insert_pet() with process=P1, name=Buddy, breed=Dog.
+2023-09-03 00:23:26,997 - ERROR - ERROR while P3 inserting pet Emma: database is locked
+2023-09-03 00:23:26,997 - ERROR - ERROR while P2 inserting pet Cooper: database is locked
+2023-09-03 00:23:26,997 - INFO -   Called insert_pet() with process=P3, name=Felix, breed=Cat.
+2023-09-03 00:23:26,997 - INFO -   Called insert_pet() with process=P2, name=Dingo, breed=Dog.
+2023-09-03 00:23:33,893 - INFO - 
+SUCCESS: All processes successfully completed!
+
+Now - increase the task duration (representing 
+      the time the task has the database 
+      tied up during an insert statement).
+How well do multiple, concurrent processes share a database 
+    when each task takes more time? 
+How can multiple processes share a resource
+    without interfering with each other?
+
+(base) hajarsyria@HajarMacBookPro streaming-02-multiple-processes % 
